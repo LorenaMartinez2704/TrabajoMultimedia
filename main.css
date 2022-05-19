@@ -1,0 +1,33 @@
+@charset "utf-8";
+body center h1 {
+    color: #000000;
+    text-shadow: 2px 2px #C4C4C4;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+body div {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: large;
+    text-align: justify;
+    background-color: #FFFFFF;
+}
+body {
+    background-color: #FF0004;
+    background-repeat: no-repeat;
+    background-image: -webkit-linear-gradient(270deg,rgba(0,227,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,227,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,227,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,227,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+}
+.parrafo {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cuerpo {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.cuadrado {
+    background-color: #DDDDDD;
+    border-width: thick;
+    border-style: groove;
+}
