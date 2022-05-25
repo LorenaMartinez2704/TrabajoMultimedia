@@ -13,16 +13,16 @@ body div {
     background-color: #FFFFFF;
 }
 body {
-    background-color: #FF0004;
-    background-repeat: no-repeat;
-    background-image: -webkit-linear-gradient(270deg,rgba(0,227,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
-    background-image: -moz-linear-gradient(270deg,rgba(0,227,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
-    background-image: -o-linear-gradient(270deg,rgba(0,227,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
-    background-image: linear-gradient(180deg,rgba(0,227,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-repeat: repeat;
     margin-top: -1px;
     margin-left: -1px;
     margin-right: -1px;
     margin-bottom: -1px;
+    background-image: url(Imagenes/Assets/Fondo/ComidaFondo.png), -webkit-linear-gradient(270deg,rgba(255,198,93,1.00) 0%,rgba(255,183,141,1.00) 100%);
+    background-image: url(Imagenes/Assets/Fondo/ComidaFondo.png), -moz-linear-gradient(270deg,rgba(255,198,93,1.00) 0%,rgba(255,183,141,1.00) 100%);
+    background-image: url(Imagenes/Assets/Fondo/ComidaFondo.png), -o-linear-gradient(270deg,rgba(255,198,93,1.00) 0%,rgba(255,183,141,1.00) 100%);
+    background-image: url(Imagenes/Assets/Fondo/ComidaFondo.png), linear-gradient(180deg,rgba(255,198,93,1.00) 0%,rgba(255,183,141,1.00) 100%);
+    background-size: 200px auto;
 }
 .parrafo {
     margin-left: 20px;
@@ -38,8 +38,10 @@ body {
 }
 
 .cuerpo {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: thick solid #FFAE00;
+    background-color: #FFFFFF;
 }
 .cuadrado {
     background-color: #DDDDDD;
